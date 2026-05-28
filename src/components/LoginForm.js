@@ -15,7 +15,7 @@ const LoginForm = () => {
         e.preventDefault();
 
         if (username.trim() === "" || password.trim() === "") {
-            setErrorMessage("Both fields are required.");
+            setErrorMessage("Both username and password are required.");
         } else {
             setErrorMessage("");
             console.log("Login successful!");
